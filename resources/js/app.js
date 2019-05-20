@@ -1,12 +1,15 @@
 console.log('Loading app.js');
 
-window.Vue = require('vue');
+// If you do not intend to use Vue.js
+// commenting out the lines below will reduce app.js in production by about 97 times
 
-Vue.component(
-    'example-component',
-    require('./components/ExampleComponent.vue').default
-);
+// window.Vue = require('vue');
 
-const app = new Vue({
-    el: '#app'
-});
+// Vue.component(
+//     'example-component',
+//     require('./components/ExampleComponent.vue').default
+// );
+
+// const app = new Vue({
+//     el: '#app'
+// });

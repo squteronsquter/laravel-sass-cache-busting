@@ -11,6 +11,8 @@
     <body>
         <div id="app"></div>
         <h1>Cache Busting</h1>
+        <p>Versioning in webpack.mix.js</p>
+        <p>with dynamically generated hashes in app.css & app.js files</p>
         {{-- <script src="/js/app.js"></script> --}}
         {{-- Cache busting --}}
         <script src="{{ mix('/js/app.js') }}"></script>
