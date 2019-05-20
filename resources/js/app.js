@@ -1,7 +1,7 @@
 console.log('Loading app.js');
 
 // If you do not intend to use Vue.js
-// commenting out the lines below will reduce app.js in production by about 97 times
+// commenting out the lines below will reduce app.js in production by about 97 times.
 
 // window.Vue = require('vue');
 
