@@ -1,0 +1,25 @@
+// Custom Sass
+$font: sans-serif;
+$white: #fafafa;
+$black: #000;
+$red: #e44d26;
+$size: 10px;
+
+body {
+    align-items: center;
+    background: $black;
+    color: $red;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    font-family: $font;
+    margin: auto;
+    width: 100%;
+    h1 {
+        background-color: $white;
+        border-radius: $size * 0.5;
+        font-size: $size * 3;
+        padding: $size * 3;
+    }
+}
